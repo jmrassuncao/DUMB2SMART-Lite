@@ -1,4 +1,4 @@
-# DUMB2SMART
+# DUMB2SMART Lite
 
 The **DUMB2SMART Lite** is a way for some dumb equipment to gain some intelligence and inform a MQTT broker if they are ON or OFF. It was developed for use with ESP-01 in mind but can be used with other ESPs.
 
