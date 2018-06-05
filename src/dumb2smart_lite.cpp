@@ -12,19 +12,17 @@
 //************* INCLUDE LIBRARIES ************************************************************************
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
-//************* PROJECT AND VERSION **********************************************************************
-const char* proj_ver = "DUMB2SMART (04/06/2018)";                               // Project name and version
 //************ CONFIG WIFI *******************************************************************************
-const char* WIFI_SSID = "MILKYWAY";                                             // Wifi SSID
-const char* WIFI_PASS = "2526F68597";                                           // Wifi password
+const char* WIFI_SSID = "wifissid";                                             // Wifi SSID
+const char* WIFI_PASS = "wifipassword";                                         // Wifi password
 IPAddress ip(192,168,1,224);                                                    // IP address
 IPAddress gateway(192,168,1,1);                                                 // Gateway
 IPAddress subnet(255,255,255,0);                                                // Subnet mask
 #define DEVICE_HOSTNAME "teste_node"                                            // Hostname
 //************* CONFIG MQTT ******************************************************************************
 const char* MQTT_SERVER = "192.168.1.200";                                      // MQTT server address
-const char* MQTT_USERNAME = "homeassistant";                                    // MQTT server username
-const char* MQTT_PASSWORD = "JA2508ca72";                                       // MQTT server password
+const char* MQTT_USERNAME = "mqttusername";                                     // MQTT server username
+const char* MQTT_PASSWORD = "mqttpassword";                                     // MQTT server password
 const char* MQTT_ID = "test_node";                                              // Node ID
 const int MQTT_PORT = 1883;                                                     // MQTT server port
 //************ CONFIG MQTT LWT ***************************************************************************
